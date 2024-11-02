@@ -18,11 +18,11 @@ for (let a = 0; a < fiveNumb.length; a++) {
     console.log(fiveNumb[a]);
 }
 
-const Number = [10, 23, 45, 32, 67, 12, 54, 89, 21, 33];
+const Number = [170, 235, 465, -92, 6, 912, 0, 889, 201, 933];
 let maximumNumber = Number[0];
 for (let i = 1; i < Number.length; i++) {
     if (Number[i] > maximumNumber) {
-        maximumNumb = Number[i];
+        maximumNumber = Number[i];
     }
 }
-console.log(maximumNumb);
+console.log(maximumNumber);
