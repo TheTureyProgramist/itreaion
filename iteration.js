@@ -26,3 +26,18 @@ for (let i = 1; i < Number.length; i++) {
     }
 }
 console.log(maximumNumber);
+
+const stringsTurkeys = ["RoyalTurkey", "WhiteTurkey", "Grey", "Greys", "TurkeyLove", "BlackTurkey"];
+console.log("Більше 5 символів:");
+for (let r = 0; r < stringsTurkeys.length; r++) {
+    if (stringsTurkeys[r].length > 5) {
+        console.log(stringsTurkeys[r]);
+    }
+}
+const numbers = [1637098, -24335, -465, -92, 3 * 2 + 14, -912, -0, 889, 201, 933];
+console.log("Парні числа і індики:");
+for (let a = 0; a < numbers.length; a++) {
+    if (numbers[a] % 2 === 0) {
+        console.log(numbers[a]);
+    }
+}
